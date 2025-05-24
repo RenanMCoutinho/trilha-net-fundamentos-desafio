@@ -1,5 +1,6 @@
 ﻿using DesafioFundamentos.Models;
 
+
 // Coloca o encoding para UTF8 para exibir acentuação
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
@@ -28,6 +29,8 @@ while (exibirMenu)
     Console.WriteLine("2 - Remover veículo");
     Console.WriteLine("3 - Listar veículos");
     Console.WriteLine("4 - Encerrar");
+
+    
 
     switch (Console.ReadLine())
     {
